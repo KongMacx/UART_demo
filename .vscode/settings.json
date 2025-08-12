@@ -1,0 +1,35 @@
+{
+    //  Verilog默认格式化
+    "[verilog]": {
+        "editor.defaultFormatter": "chipsalliance.verible"
+    },
+    "[systemverilog]": {
+        "editor.defaultFormatter": "chipsalliance.verible"
+    },
+    //  verible路径
+    "verible.path": "D:\\ENV\\verible\\verible-v0.0-4007-g98bdb38a-win64\\verible-verilog-ls.exe",
+    //  额外参数
+    "verible.arguments": [
+        "--indentation_spaces=4", //每级缩进 4 
+        "--column_limit=120", //限行 120
+        "--assignment_statement_alignment=align", //对齐 赋值
+        "--named_port_alignment=align", //模块内对齐
+        "--named_port_indentation=wrap",
+        "--named_parameter_alignment=align",
+        "--named_parameter_indentation=wrap",
+        "--try_wrap_long_lines=true", //
+        "--port_declarations_alignment=align", //模块声明对齐
+        "--port_declarations_indentation=wrap"
+    ],
+
+    // // 你的其它设置写在上边，注意最后添加一个半角的逗号
+    // "verilog-formatter.istyle.path": "D:\\ENV\\istyle\\bin\\iStyle.exe", // 路径+名称，根据自己的设置
+    // "verilog-formatter.istyle.style": "K&R", // 风格，我喜欢用这个，也可以用gnu啥的
+    // "verilog-formatter.istyle.args": "-p -a", // 参数，可以设置，看看源代码（上面那些github链接）里的选项
+    // "[verilog]": {
+    //     "editor.defaultFormatter": "mshr-h.veriloghdl" // 用于统一verilog代码风格的默认的扩展
+    // }, // 如果这些代码写在你的setting.json的最后了，那么就不需要一个半角的逗号
+    // // },   // 如果这些代码不在你的setting.json的最后，那么就需要一个半角的逗号，替换掉上面一行
+
+    "vscode-journal-view.expanded": true
+}
